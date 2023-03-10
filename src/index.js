@@ -1,5 +1,7 @@
 import './styles.css';
 import { 
+  txtEmail, 
+  txtPassword, 
   hideLoginError, 
   showLoginState, 
   showLoginForm, 
@@ -7,8 +9,10 @@ import {
   showLoginError, 
   btnLogin,
   btnSignup,
-  btnLogout
+  btnLogout,
+  lblAuthState
 } from './ui'
+
 
 import { initializeApp } from 'firebase/app';
 import { 
